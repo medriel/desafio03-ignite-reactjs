@@ -39,10 +39,6 @@ Como você já deve ter visto nas aulas, o Prismic é uma Headless CMS. Vamos ut
     - Descrição: Input de strings. Recebe valores manualmente. Esse campo será utilizado como nome do autor do Post.
 - **banner**
     - Tipo: Image
-    - Configurações do campo:
-
-        ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ee38dc96-7ced-4c7e-b20b-53530ec31aa5/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ee38dc96-7ced-4c7e-b20b-53530ec31aa5/Untitled.png)
-
     - Descrição: Input de imagens. Recebe valores manualmente. Esse campo será utilizado como banner do Post.
 - **content**
     - Tipo: Group
@@ -52,11 +48,7 @@ Como você já deve ter visto nas aulas, o Prismic é uma Headless CMS. Vamos ut
             - Tipo: Key Text
             - Descrição: Input de strings. Recebe valores manualmente. Esse campo será utilizado como título da seção do Post.
         - **body**
-            - Tipo: Rich Text
-            - Configurações do campo:
-
-                ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/79c8e7b6-a0be-4713-9447-bf9f13e0082e/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/79c8e7b6-a0be-4713-9447-bf9f13e0082e/Untitled.png)
-
+            - Tipo: Rich Text      
             - Descrição: Input de *rich text* (HTML). Recebe valores manualmente. Esse campo será utilizado como conteúdo da seção do Post. Perceba que nas configurações do campo, selecionamos algumas opções para que o seu texto tenha varias formatações (negrito, hyperlinks, listas, etc.).
 
 Por fim, vamos falar rapidamente dos métodos que esperamos que você utilize em cada arquivo:
@@ -66,8 +58,6 @@ Por fim, vamos falar rapidamente dos métodos que esperamos que você utilize em
 
 Além disso, não esqueça de configurar no arquivo `.env.local` na raiz do seu projeto a variável `PRISMIC_API_ENDPOINT` com a url da sua API
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e0accf51-c0f2-4602-8a6b-78f638110a9e/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e0accf51-c0f2-4602-8a6b-78f638110a9e/Untitled.png)
-
 Caso tenha dúvidas, dê uma olhada na documentação oficial do Prismic:
 
 [Prismic w/ Javascript - Prismic](https://prismic.io/docs/technologies/javascript)
@@ -75,6 +65,8 @@ Caso tenha dúvidas, dê uma olhada na documentação oficial do Prismic:
 [Next.js & Prismic](https://prismic.io/docs/technologies/getting-started-nextjs)
 
 [Prismic Help Center](https://intercom.help/prismicio/en/)
+
+![image](https://user-images.githubusercontent.com/74268252/128435243-1078133c-f276-4bdd-8663-e892a5bf8f85.png)
 
 ### Figma
 
@@ -151,3 +143,10 @@ format(
 Caso tenha dúvidas de como utilizar, dê uma olhada na documentação oficial.
 
 [Modern JavaScript Date Utility Library](https://date-fns.org/docs/Getting-Started)
+
+![image](https://user-images.githubusercontent.com/74268252/128435035-7abe5880-b4cf-4f1d-afd7-6dacb832e063.png)
+![image](https://user-images.githubusercontent.com/74268252/128435065-98cf2ca0-d94b-46aa-a70d-d3c4eaca2953.png)
+![image](https://user-images.githubusercontent.com/74268252/128435090-2b63ed60-94be-4679-86c5-dc74a1428e2b.png)
+
+
+
